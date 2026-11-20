@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Banco Ejemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabeceraBanco">
+        <h1><span class="iconoBanco"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M4 9v10"/><path d="M8 9v10"/><path d="M12 9v10"/><path d="M16 9v10"/><path d="M20 9v10"/><path d="M2 21h20"/><path d="M12 3 2 8h20z"/></svg></span> Banco Ejemplo</h1>
+    </div>
+    <div class="panelBanco">
+        <div class="columnasBanco">
+            <div class="tarjetaBanco resumenCuentas" id="resumen-cuentas">
+                <h2>Resumen de Cuentas</h2>
+                <p class="nombreCuenta">Cuenta Corriente</p>
+                <p class="saldoCuenta">12.340,45€</p>
+                <p class="nombreCuenta">Cuenta de Ahorros</p>
+                <p class="saldoCuenta">5.000,00€</p>
+                <a class="botonBanco" href="#resumen-cuentas">Ver más detalles</a>
+            </div>
+            <div class="tarjetaBanco movimientos" id="movimientos">
+                <h2>Movimientos Recientes</h2>
+                <div class="filaBanco filaTitulos"><span class="fechaBanco">Fecha</span><span class="descripcionBanco">Descripción</span><span class="montoBanco">Monto</span><span class="estadoBanco">Estado</span></div>
+                <div class="filaBanco"><span class="fechaBanco">01/10/2025</span><span class="descripcionBanco">Transferencia a Juan</span><span class="montoBanco">-150,00€</span><span class="estadoBanco completadoBanco">Completado</span></div>
+                <div class="filaBanco"><span class="fechaBanco">28/09/2025</span><span class="descripcionBanco">Pago de servicios</span><span class="montoBanco">-75,00€</span><span class="estadoBanco pendienteBanco">Pendiente</span></div>
+                <div class="filaBanco"><span class="fechaBanco">25/09/2025</span><span class="descripcionBanco">Depósito directo</span><span class="montoBanco">+1.000,00€</span><span class="estadoBanco completadoBanco">Completado</span></div>
+                <div class="filaBanco"><span class="fechaBanco">22/09/2025</span><span class="descripcionBanco">Compra en supermercado</span><span class="montoBanco">-50,00€</span><span class="estadoBanco completadoBanco">Completado</span></div>
+                <a class="botonBanco" href="#movimientos">Ver más movimientos</a>
+            </div>
+            <div class="tarjetaBanco informacionBanco" id="informacion-banco">
+                <h2>Información del Banco</h2>
+                <p><b>Dirección:</b> Calle Ficticia 123, Ciudad Ejemplo</p>
+                <p><b>Teléfono:</b> +1 234 567 890</p>
+                <p><b>Atención al Cliente:</b> <a class="correoBanco" href="mailto:support@bancoejemplo.com">support@bancoejemplo.com</a></p>
+                <a class="botonBanco" href="mailto:support@bancoejemplo.com?subject=Informaci%C3%B3n%20del%20banco">Más información</a>
+            </div>
+        </div>
+        <p class="pieBanco">© 2025 Banco Ejemplo. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
